@@ -10,7 +10,8 @@ public class HelloController {
     @GetMapping("/hello")
     public ModelAndView hello(){
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("hello");
+        mav.setViewName("index");
         return mav;
+
     }
 }

@@ -14,15 +14,15 @@ public class BoardViewContorller {
     }
 
     // [USER] 리스트 페이지
-    @GetMapping(value="/boardList")
-    public String boardList() {
-        return "boardList";
+    @GetMapping(value="/productList")
+    public String productList() {
+        return "productList";
     }
 
     // [USER] 상세보기 페이지
-    @GetMapping(value="/boardDetail")
-    public String boardDetail() {
-        return "boardDetail";
+    @GetMapping(value="/productDetail")
+    public String productDetail() {
+        return "productDetail";
     }
 
     // [ADMIN] 로그인 페이지 
@@ -32,27 +32,27 @@ public class BoardViewContorller {
     }
 
     // [ADMIN] 작성하기 페이지
-    @GetMapping(value="/admin/boardWrite")
-    public String adminBoardWrite() {
-        return "adminBoardWrite";
+    @GetMapping(value="adminProductWrite")
+    public String adminProductWrite() {
+        return "admin/productWrite";
     }
 
     // [ADMIN] 리스트 페이지
-    @GetMapping(value="/admin/boardList")
-    public String adminBoardList() {
-        return "adminBoardList";
+    @GetMapping(value="adminProductList")
+    public String adminProductList() {
+        return "admin/productList";
     }
 
     // [ADMIN] 상세보기 페이지
-    @GetMapping(value="/admin/boardDetail")
-    public String adminBoardDetail() {
-        return "adminBoardDetail";
+    @GetMapping(value="adminProductDetail")
+    public String adminProductDetail() {
+        return "admin/productDetail";
     }
 
     // [ADMIN] 수정하기 페이지
-    @GetMapping(value="/admin/boardModify")
-    public String adminBoardModify() {
-        return "adminBoardModify";
+    @GetMapping(value="adminProductModify")
+    public String adminProductModify() {
+        return "admin/productModify";
     }
 
     
