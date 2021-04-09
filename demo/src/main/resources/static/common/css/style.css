@@ -1,0 +1,35 @@
+* {	margin:0;	padding:5px;  padding-top: 5px;	color:#000;	box-sizing: border-box;}
+.fn-font { font-family: 'Noto Sans KR', sans-serif;}
+ul {list-style: none;}
+a {	text-decoration: none; outline: none;  padding-top: 2rem;}
+.container {	width:1440px;	margin:0 auto;}
+
+header {	width:100%;	height:80px;	display: flex;	align-items: center;	justify-content: space-between;  padding: 3.5rem;  border-bottom: 2px solid rgb(0,108,190);}
+header > h2 {	margin-right: auto;  margin-top: auto;  font-size: 20px;}
+header > nav {height:100%;}
+header ul {	width:100%;	height: 100%;	display: flex;	justify-content: space-between;}
+header ul > li {	font-size:16px;	height: 100%;	display: flex;	align-items: center;}
+
+.listTable table {width: 100%; border-spacing: 3px 15px; border-top: 2px solid rgb(65,113,156); table-layout: fixed;}
+.listTable td { border: 2px solid #dadada; word-break:break-all; width: 50%;}
+.listTable td:first-child {width: 25%;}
+.listTable tr {height:175px;  padding: 0%; }
+
+.listTable{width: 80%;  padding-left: 20%; padding-top: 45px;} 
+.listTable img{display: block; margin: 0px auto;  width: 100%;  height: 170px;  object-fit: scale-down;}
+
+.searchInput{  width: 403px; height: 50px; border: 2px solid rgb(0,108,190);  border-radius: 10px;}
+
+.center {margin: 0 auto;  width: 420px;  padding: 20px;}
+.myProductBtn{  width: 113px; height: 34px;  border-radius: 8px;  background-color: rgb(0,32,96);  color: #ffffff;}
+
+.navDiv{ padding-left: 20%; width: 100%;}
+.navDiv ul{list-style:none; margin:0; padding:0;}
+.navDiv li{margin: 0 0 0 0; padding: 0 0 0 0; border : 0; float: left;}
+
+.menuNav a{ font-weight: bold;}
+
+.registerDiv{border: 2px solid #dadada; width: 60%; padding: 2%; left: 20%; position: absolute; top: 20%; text-align: inherit;}
+.registerDiv table{}
+.registerDiv tr{height: 80px; padding: 0%;}
+.registerDiv td{width: 65%;}
